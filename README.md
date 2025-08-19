@@ -14,4 +14,9 @@ and **K-Nearest Neighbors (KNN)** algorithm.
 - `README.md` → Project description
 
 ## Sample Output
-![Example](screenshots/sample.png)
+
+### Digit Prediction
+![Prediction](screenshots/prediction.png)
+
+### Submission File
+![Submission](screenshots/submission_file.png)
