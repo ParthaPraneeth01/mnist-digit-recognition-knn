@@ -1,27 +1,3 @@
-# 🧠 Digit Recognizer (MNIST + KNN)
-
-This project implements a digit recognition system using the **MNIST dataset** 
-and **K-Nearest Neighbors (KNN)** algorithm.  
-
-- Framework: Google Colab  
-- Dataset: MNIST (from Kaggle)  
-- Model: KNN Classifier (sklearn)  
-- Deployment: Kaggle Submission  
-
-## Files
-- `Hands-On-Deployment.ipynb` → Training + Evaluation
-- `submission.csv` → Kaggle submission file
-- `README.md` → Project description
-
-## Sample Output
-
-### Digit Prediction
-![Prediction](screenshots/prediction.png)
-
-### Submission File
-![Submission](screenshots/submission_file.png)
-
-
 # 🖊️ MNIST Digit Recognition (KNN, Colab)
 
 This project demonstrates handwritten digit classification using the **MNIST dataset** and the **k-Nearest Neighbors (KNN)** algorithm.  
@@ -44,13 +20,17 @@ The implementation is done in a Google Colab notebook with step-by-step workflow
 ---
 
 ## 🔍 Example Output
+A preview of the Kaggle submission file (`submission.csv`):
 
-### Sample Predictions
-Digits visualized from the test set and their predictions:
+| ImageId | Label |
+|---------|-------|
+| 1       | 2     |
+| 2       | 0     |
+| 3       | 9     |
+| 4       | 4     |
+| 5       | 3     |
 
-![Sample Predictions](./sample-predictions.png)
-
----
+The file contains 28,000 rows, one for each test image.
 
 ## 🏆 Kaggle Competition Performance
 
@@ -59,7 +39,7 @@ This project was submitted to the [Kaggle Digit Recognizer Competition](https://
 - **Public Leaderboard Score:** `0.96414`  
 - **Submission file:** `submission.csv`  
 
-![Kaggle Leaderboard](./kaggle-score.png)
+[![Kaggle Leaderboard](./kaggle-score.png)](https://www.kaggle.com/competitions/digit-recognizer/leaderboard)
 
 ---
 
